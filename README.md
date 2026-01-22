@@ -1,11 +1,16 @@
-<div align="center">
+# Web-to-app
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Service marketplace web application scaffold for Clients, Contractors, and Workers.
 
-  <h1>Built with AI Studio</h2>
+Structure:
+- frontend/ (Next.js)
+- backend/ (Express API)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Run frontend:
+- cd frontend && npm install && npm run dev
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+Run backend:
+- cd backend && npm install && npm run dev
 
-</div>
+Environment:
+- Copy .env.example to .env and update values
